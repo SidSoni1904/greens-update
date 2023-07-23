@@ -1,0 +1,530 @@
+.services {
+    background: url('../../assets/images/Gallery/contactBG.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+
+.servicePera {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #292929;
+}
+
+@media screen and (max-width: 665px) {
+    .serviceHeading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .serviceHeading {
+        font-size: 4rem;
+    }
+    .servicePera {
+        font-weight: 600 !important;
+        font-size: 4vw;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #292929;
+    }
+}
+
+/* secrtiontwo start here */
+
+
+
+.office1 {
+    background: url('../../assets/images/servicePage/office1.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.office2 {
+    background: url('../../assets/images/servicePage/office2.png');
+    height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.officedata {
+    background: linear-gradient(152.67deg, #91C13A -1.1%, rgba(145, 193, 58, 0) 69.27%);
+    width: 151px;
+    height: 240px;
+    margin-left: -15px;
+}
+
+.officeinformation {
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    background: #91C13A;
+}
+
+.info1 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .servicetwo{
+        padding-bottom: 100px;
+    }
+    .office1 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .office2 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .officeinformation {
+        width: 300px;
+        height: 130px;
+        position: relative;
+        top: 250px;
+        left: 250px;
+        background: #91C13A;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .servicetwo{
+        padding-bottom: 100px;
+    }
+    .office1 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .office2 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .officeinformation {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 200px;
+        left: 200px;
+        background: #91C13A;
+        
+    }
+    .info1 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .infopage {
+        height: 35px;
+        width: 45px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 50px;
+        right: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .servicetwo{
+        padding-bottom: 100px;
+    }
+    .office1 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .office2 {
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .officeinformation {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 200px;
+        left: 200px;
+        background: #91C13A;
+        
+    }
+    .info1 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .infopage {
+        height: 35px;
+        width: 45px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 50px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .servicetwo{
+        padding-bottom: 100px;
+    }
+    
+    .officeinformation {
+        width: 230px;
+        height: 100px;
+        position: relative;
+        top: 180px;
+        left: 150px;
+        background: #91C13A;
+        
+    }
+    .info1 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .infopage {
+        height: 35px;
+        width: 45px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 50px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .servicetwo{
+        padding-bottom: 100px;
+    }
+    .office1 {
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 10% 15%;
+    }
+    
+    .office2 {
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 10% 15%;
+    }
+    .officeinformation {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 270px;
+        left: 200px;
+        background: #91C13A;
+        
+    }
+    .info1 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    .infopage {
+        height: 35px;
+        width: 45px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 50px;
+        right: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 665px) {
+    .office2 {
+        height: 30vh;
+        background-repeat: no-repeat;  
+    }
+    .officeinformation {
+        width: 170px;
+        height: 90px;
+        position: relative;
+        top: 100px;
+        left: 120px;
+        background: #91C13A;  
+    }
+    .info1 {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .infopage {
+        height: 35px;
+        width: 45px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    .officedata {
+        background: linear-gradient(152.67deg, #91C13A -1.1%, rgba(145, 193, 58, 0) 69.27%);
+        width: 80px;
+        height: 150px;
+        margin-left: -15px;
+    }
+    .servicetwo{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .office1 {
+        height:auto;
+        background-size: contain;
+        padding: 50px;
+        margin: 0% 5%;
+    }
+    
+    .office2 {
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 30px;
+        margin: 0% 0%;
+    }
+    .officeinformation {
+        width: 200px;
+        height: 60px;
+        position: relative;
+        top: 100px;
+        left: 15px;
+        background: #91C13A;  
+    }
+    .infopage {
+        height: 25px;
+        width: 35px;
+        border: 1px solid black;
+        background: #FFFFFF;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+    .info1 {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .righticon{
+        position: relative;
+        top: -5px;
+        left: -5px;
+    }
+}
+
+
+/* section 3 start here */
+
+.sectionthree {
+    background: url('../../assets/images/servicePage/section3BG.png');
+    max-height: max-content;
+    width: auto;
+}
+
+.servicepara {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #292929;
+}
+
+.menimg {
+    max-height: 60vh;
+    width: auto;
+}
+
+.img-thumbnail{
+    border: none;
+    background: transparent;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .mypara .servicepara {
+        margin-left: 0px;
+    }
+    .servicepara {
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #292929;
+    }
+    .menimg {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .menimg {
+        width: auto;
+        margin-left: 0px;
+    }
+    .mypara .servicepara {
+        margin-left: 0px;
+    }
+    .servicepara {
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #292929;
+    }
+    .sec3row_1{
+        flex-direction: column-reverse;
+    }
+    .sec3row_2{
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+@media screen and (max-width:576px) {
+   
+    .servicepara {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #292929;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .menimg {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .menimg {
+        height: 30vh;
+        width: auto;
+        margin: 0 !important;
+    }
+}
+
+
+/* section4 start here */
+
+.Bestservices {
+    background: url('../../assets/images/servicePage/BestservicesBG.png');
+    height: 45vh;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.looking {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.growbnPera {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.bestsvhead {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.BS{
+    padding-top: 130px;
+}
+
+.BS .contactusbtn {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+    padding: 10px 30px;
+}
+
+.BS a{
+    color: #91C13A;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .Bestservices {
+        background: url('../../assets/images/servicePage/BestservicesBG.png');
+        height: auto;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    .BS{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .bestsvhead { 
+        font-size: 7vw;
+        line-height: 30px;
+    }
+    .growbnPera {
+        font-size: 5vw;
+        line-height: 30px;
+    }  
+    .BS{
+        padding-top: 50px;
+    }
+    .BS .contactusbtn {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }  
+}

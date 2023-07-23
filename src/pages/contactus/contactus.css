@@ -1,0 +1,408 @@
+.contactBG {
+    background: url('../../assets/images/servicePage/Gallerybg.png');
+    /* max-width: max-content;
+    max-height: max-content; */
+    /* margin-top: 110px; */
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 110px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+
+.contactHeading {
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.contactPera {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 665px) {
+    .contactHeading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contactHeading {
+        font-size: 2.5rem;
+    }
+
+    .contactPera {
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 30px;
+        text-align: center;
+        margin: 0px 20px;
+    }
+}
+
+.vl {
+    border-left: 6px solid #C2C2C2;
+    height: 50px;
+}
+
+.getTouch {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #91C13A;
+}
+
+.infoBG {
+    background: url('../../assets/images/Gallery/phone.png');
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.phoneinfo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ownerInfo {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.hrline2 {
+    border: 2px solid #91C13A;
+    width: 50px;
+}
+
+.companyInfo p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #8B8B8B;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .infoBG {
+        max-height: auto;
+        width: auto;
+    }
+
+    .getTouch {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 55px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .infoBG {
+        height: auto;
+        width: auto;
+        padding: 20px 0px;
+    }
+
+    .phoneinfo {
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .vl {
+        border: none;
+        height: auto;
+    }
+
+    .available {
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .infoBG {
+        max-height: auto;
+        width: auto;
+    }
+}
+
+/* section3 start here */
+
+.userinput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.namesfield {
+    height: 100%;
+    /* padding: 10px; */
+}
+
+.firstname {
+    text-align: left;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+    padding: 10px 0px;
+    border-bottom: 2px solid #818E9B;
+    width: 300px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 1;
+}
+
+.firstname:focus {
+    outline: none;
+}
+
+.message {
+    text-align: left;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+    border-bottom: 2px solid #818E9B;
+    width: 300px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: -60px;
+}
+
+.message:focus {
+    outline: none;
+}
+
+textarea {
+    margin: 15px;
+}
+
+.sendmessagebtn{
+    margin-left: 0;
+    
+}
+
+.sendmesgdiv{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.sendmessagebtn {
+    min-width: auto;
+    background: #91C13A;
+    border: 1px solid #91C13A;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* input[type=number] {
+    -moz-appearance: textfield;
+  } */
+
+.form-error{
+    color: red;
+    font-weight: 600;
+}  
+
+@media screen and (max-width: 768px) {
+    .userinput {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .message {
+        margin-left: 40px;
+    }
+
+    .sendmesgdiv{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .message {
+        width: 650px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .sendmessagebtn{
+        margin-top: 0;
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .message {
+        width: 650px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .sendmessagebtn{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    textarea {
+        margin: 0px;
+    }
+
+    .firstname {
+        width: 500px;
+    }
+
+    .pnumber{
+        padding-top: 0px;
+    }
+
+    .message {
+        width: 500px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .userinput {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .sendmesgdiv{
+        justify-content: center;
+    }
+
+    .sendmessagebtn{
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .firstname {
+        width: 400px;
+        margin: 0px 10px;
+    }
+
+    .message {
+        width: 350px;
+        margin-left: 0px;
+        line-height: 30px;
+    }
+
+    .namesfield {
+        margin: auto;
+    }
+    .sendmessagebtn{
+        margin-left: 0;
+    }
+    .sendmesgdiv{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 575px) {
+    .userinput {
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+    .message {
+        min-width: 70%;
+        margin-left: 10px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 430px) {
+    .firstname {
+        width: 340px;
+        margin: auto;
+    }
+    .sendmesgdiv{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 350px) {
+    .firstname {
+        width: 250px;
+        margin: 0px 10px;
+    }
+
+    .message {
+        width: 350px;
+        margin-left: 0px;
+        line-height: 50px;
+    }
+    .sendmesgdiv{
+        justify-content: center;
+    }
+}

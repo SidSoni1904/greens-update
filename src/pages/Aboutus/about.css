@@ -1,0 +1,417 @@
+/* SectionOne start here */
+
+.aboutusSec {
+    background: url('../../assets/images/Aboutus/AboutBG.png');
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 110px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.aboutusHeading {
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.aboutusPera {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 576px) {
+    .aboutusHeading {
+        font-size: 3.5rem;
+        padding-bottom: 20px;
+    }
+    
+}
+
+/* Section2 start here */
+
+.aboutusSecTwohead {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.restauranrPera {
+    font-weight: 650;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #292929;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutusSecTwohead {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 72px;
+        letter-spacing: 0.01em;
+        color: #91C13A;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .restauranrPera {
+        font-weight: 650;
+        font-size: 1.2rem;
+        line-height: 25px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+    .aboutusSecTwohead {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 42px;
+    }
+    .restauranrPera {
+        font-weight: 650;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    
+}
+
+/* Section3 start here */
+
+.aboutusSecThree {
+    background: url('../../assets/images/Aboutus/whystartBG.png');
+    max-width: max-content;
+    max-height: max-content;
+    /* margin-top: 110px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.aboutusSecThreehead {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.aboutusSecThreePera {
+    width: 47%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #292929;
+}
+
+@media screen and (max-width: 768px) {
+
+    .aboutusSecThreehead {
+        font-size: 3rem;
+    }
+
+    .aboutusSecThreePera {
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 25px;
+    }  
+}
+
+@media screen and (max-width: 480px) {
+    .aboutusSecThreehead {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+
+    .aboutusSecThreehead {
+        font-size: 2rem;
+    }
+    .aboutusSecThreePera {
+        width: 100%;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+
+/* section4 start here */
+
+.WhatwedoHeading {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 90px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    border: none;
+}
+
+.btn-link {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #292929;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.cardData {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #8B8B8B;
+}
+
+.accordianArrow {
+    /* transform: rotate(50deg); */
+    color: #91C13A;
+}
+
+.btn-link:hover {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+@media only screen and (max-width: 676px) {
+
+    .WhatwedoHeading {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 50px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .WhatwedoHeading {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 90px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 576px) {
+
+    .WhatwedoHeading {
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+    
+    .btn-link {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .cardData {
+        font-size: 16px;
+    }
+
+}
+
+/* sectionFive start here */
+
+.aboutusSecFive {
+    background: url('../../assets/images/Aboutus/AboutBG.png');
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* sectionSix start here */
+
+.ourteam {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.membername {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.memberposition {
+    font-family: 'Princess Sofia';
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #8B8B8B;
+}
+
+.Icons{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .ourteam {
+        font-size: 3rem;
+    }
+}
+
+
+.custom-indicator{
+    /* border: 2px solid green; */
+    bottom: -60px !important;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 90px !important;
+    height: 20px;
+    margin: 0px 20px !important;
+    padding-top: -10px !important;
+    cursor: pointer;
+}
+
+.restaurantimg{
+    height: '80px' !important;
+    width: '120px' !important;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .restaurantimg{
+        padding-bottom: 50px;
+    }
+    .custom-indicator{
+        /* border: 2px solid green; */
+        bottom: -125px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .restaurantimg{
+        padding-bottom: 50px;
+    }
+    .custom-indicator{
+        /* border: 2px solid green; */
+        bottom: -75px !important;
+    }
+      
+}
+
+/* padding = t-b r-l */
+
+@media only screen and (max-width: 768px) {
+    .restaurantimg{
+        padding: 20px 20px;
+    }
+    .custom-indicator{
+        /* border: 2px solid green; */
+        bottom: -45px !important;
+    }
+      
+}
+
+
+/* padding = t-b r-l */
+
+@media only screen and (max-width: 576px) {
+    .restaurantimg{
+        padding: 10px 20px;
+        display: none;
+    }  
+    
+    .slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    background:#91C13A;
+}
+
+}
+
+
+.aboutresImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallresImg{
+    min-height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.slideImges{
+    height: 400px;
+    width: 100%; 
+}
+
+.clicked{
+    border: 2px solid #91C13A;
+}
+
+.allimages{
+    padding-bottom: 10px;
+}
+
+.smallresImg{
+    transition: all 1.5s;
+}
+
+.allimages:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+    .slideImges{
+        height: 300px;
+        width: 400px; 
+    }
+    
+}

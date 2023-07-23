@@ -1,0 +1,231 @@
+.divsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.officediv{
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.officeimg{
+    padding-bottom: 10px;
+}
+
+.offering {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.officeinfo1{
+    min-height: 120px;
+    width: 320px;
+    background-color: #91C13A;
+    position: relative;
+    bottom: 80px;
+    left: 350px;
+}
+
+.infotext {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.officepage{
+    height: 60px;
+    margin-top: 35px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: 30px;
+}
+
+.serviceHeading {
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    color: #91C13A;
+}
+
+.infopage {
+    height: 45px;
+    width: 55px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    position: relative;
+    top: 40px;
+    right: 10px;
+    border-radius: 30px;
+    border: none;
+    
+}
+button:focus {
+  outline: none;
+}
+.movebtn{
+    background-color: #91C13A;
+    border: none;
+}
+
+.righticon{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1445px) {
+    .officeimg{
+        /* width: 50%; */
+    }
+    .officeinfo1{
+        width: 72%;
+        position: relative;
+        bottom: 15px;
+        left: 2px;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+
+    .officeimg{
+        width: 80%;
+    }
+
+    .officeinfo1{
+        width: 80%;
+        position: relative;
+        bottom: 15px;
+        left: 2px;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .officeinfo1{
+        width: 79%;
+        position: relative;
+        bottom: 15px;
+        left: 2px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .officeinfo1{
+        width: 79%;
+        position: relative;
+        bottom: 15px;
+        left: 2px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .officeimg{
+        min-width: 60%;
+    }
+
+        .officeinfo1{
+            min-height: 120px;
+            width: 50%;
+            background-color: #91C13A;
+            position: relative;
+            bottom: 80px;
+            left: 350px;
+        }
+}
+
+@media screen and (max-width: 768px){
+    .officeinfo1{
+        min-height: 120px;
+        width: 40%;
+        background-color: #91C13A;
+        position: relative;
+        bottom: 80px;
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .officeinfo1{
+        min-height: 120px;
+        width: 40%;
+        background-color: #91C13A;
+        position: relative;
+        bottom: 80px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .serviceHeading {   
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .officeimg{
+       padding-left: 0px;
+       margin-left: 0px;
+    }
+    
+    .officeimg{
+        min-width: 100%;
+    }
+
+    .officeinfo1{
+        min-height: 100px;
+        min-width: 99%;
+        background-color: #91C13A;
+        position: relative;
+        bottom: 15px;
+        left: 0px;
+    } 
+
+    .infotext {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-top: 10px;
+    }
+
+    .righticon{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .officediv{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    
+.officepage{
+    height: 50px;
+    margin-top: 25px;
+    width: 85px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: 10px;
+}
+}

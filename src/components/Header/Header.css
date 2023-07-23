@@ -1,0 +1,277 @@
+.gsHeading {
+    color: #91C13A !important;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.logoText{
+    margin: 0px 120px;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.navbartitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white !important;
+    margin-right: 50px;
+}
+
+.contactbtn {
+    background: #91C13A;
+    border-radius: 4px;
+    padding: 10px 30PX;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.01rem;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #91C13A !important;
+}
+
+.dropdown-text {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 39px;
+    color: #FFFFFF !important;
+}
+
+.dropdown-text a:hover{
+    color: #91C13A;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logoText{
+        margin: 0px 12px;
+    }
+
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .logoText{
+        margin: 0px 12px;
+    }
+}
+
+
+
+
+.dropdown-menu{
+    background-color: #343a40;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #343a40;
+}
+
+@media only screen and (max-width: 576px){
+    .logoText{
+        margin: 0px 0px;
+    }
+   
+    .gsHeading {
+        font-size: 22px;
+        margin-left: 0px;
+        font-weight: 600;
+    }
+   
+}
+
+@media only screen and (min-width: 120px) and (max-width: 360px){
+    
+    .Greenstrawlogo{
+        height: 25px;
+        margin-left: 0px;
+    }
+   
+    .gsHeading {
+        font-size: 14px;
+        margin-left: 0px;
+        font-weight: 600;
+        width: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .dropdown:target .dropdown-menu{
+        display: block;
+    }
+    
+}
+
+@media (min-width: 768px) {
+	#nav .navbar li:hover ul.dropdown-menu {visibility: visible;display:block!important}
+	#nav .navbar li span {display:none}
+}
+
+.navbar{
+    z-index: 999999 !important;
+}
+/* .navbar-toggler{
+    border:0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #91C13A;
+    display: block;
+    transition: all 0.2s;
+}
+.middle-bar{
+    margin: 5px auto;
+}
+
+.navbar-toggler .top-bar{
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar{
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.cllapsed .bottom-bar{
+    transform: rotate(0);
+}
+
+.navbar-toggler.cllapsed .toggler-icon{
+    background-color: #343a40;
+} */
+
+
+
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #91C13A;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+    color: #91C13A;
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+/* .navbar-toggler.collapsed .toggler-icon {
+    background-color: #91C13A;
+} */
+
+/* .navbar-toggler {
+    color: #91C13A;
+} */
+
+.navbar-light .navbar-toggler{
+    color: #91C13A; 
+    font-size: 35px;
+}
+
+ .nav-item a.active{
+    color: #91C13A !important;
+    text-decoration: none;
+    background-color: transparent;
+ }
+
+ @media screen and (min-width: 576px) {
+    .dropdown:hover > .dropdown-menu{
+        display: inline-block;
+    }
+ }
+
+.hides{
+    display: none;
+}
+
+/* .show{
+    display: none;
+} */
+
+/* change boostrap  navbar button collapse */
+

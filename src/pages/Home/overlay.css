@@ -1,0 +1,33 @@
+.placeBG{
+    background: url('../../assets/images/Services/place.png');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.palceinfo{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placehead{
+font-weight: 700;
+font-size: calc(20px + 0.390625vw);
+letter-spacing: 0.01em;
+padding: 40px;
+color: #FFFFFF;
+}
+
+.placeauthorname{
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #91C13A;
+}

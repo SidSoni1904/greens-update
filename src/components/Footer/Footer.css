@@ -1,0 +1,98 @@
+.footerParent {
+    background-color: #292929;
+    max-height:max-content;
+    max-width: 100%;
+}
+
+.footerpara {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.01rem;
+}
+
+.getintouch {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 30px;
+    letter-spacing: 0.12rem;
+}
+
+.Address {
+    color: #FFFFFF;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.Addressdiv {
+    display: flex;
+    align-items: center;
+}
+
+.Gallery1 {
+    margin: 5px;
+}
+
+
+
+.copyright {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.hrline{
+    border-top: 1px solid white;
+}
+
+.mymail{
+    margin-left: -8px;
+}
+
+.phone{
+    margin-left: 8px;
+}
+
+
+    /* @media only screen and (max-width: 768px) {
+        .Gallery1{
+            display: none;
+        }
+    } */
+
+@media only screen and (max-width: 1242px) {
+    .footerParent {
+        width: 100%;
+    }
+    .footerParent {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .footerParent {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .gtr_gallery{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .Thegreenstarw{
+        height: 30px;
+    }
+    .gsHeading{
+        font-size: 16px;
+        margin-left: 5px;   
+    }
+}
